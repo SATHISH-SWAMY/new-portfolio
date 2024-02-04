@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loco.css">
+    <script src="https://kit.fontawesome.com/4ebdc52f03.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="main">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="gg.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" style="color: #ffffff; "></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"  ></i> </nav>
+            <div class="header-text">
+                <h1><span>Hi</span>, I'm <br>Sathish Swamy </h1>
+                <br/>
+                <pre >Full <span style="color: #ff004f;  " >Stack </span>Developer</pre>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- ------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="InShot_20230514_143312828.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Full Stack Developer with a passion for building beautiful and user-
+                        friendly websites. I have a strong understanding of both front-end and back-
+                        end development, and I am excited to put my skills to use in a professional
+                        setting. I am a quick learner and a team player, and I am confident that I can
+                        be a valuable asset to any web development team.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Other</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front-end development</span><br>HTML, CSS, Bootstrap</li>
+                            <li><span>Back-end development</span><br> Node JS , JavaScript and  ReactJS</li>
+                            <li><span>Database management</span><br>MySQL, Design, understand, and manipulate database queries and web storage</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Netlify</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <!-- <li><span>2016</span><br>UI/UX Design Training at ET Institute</li> -->
+                            <li><span>2017 - 2019</span><br>ST.mary's higher secondary school, Chennai,  Tamil Nadu
+                                .</li>
+                            <li><span>2020 - 2024</span><br>karpagam academy of higher education ,Coimbatore , Tamil Nadu .</li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- ---------------services---------------- -->
+        <!-- <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh,
+                            tincidunt sit amet sapien quis .</p> -->
+                        <!-- <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>ui/ux Design</h2> -->
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh,
+                            tincidunt sit amet sapien quis .</p> -->
+                        <!-- <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Web Application Development</h2> -->
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh,
+                            tincidunt sit amet sapien quis .</p> -->
+                        <!-- <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>   --> 
+
+        <!-- -----------portfolio--------------/ -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="ama.png">
+                        <div class="layer">
+                            <h3>E-Commerce</h3>
+                            <p>Using ReactJS</p>
+                            <a href="https://cart-react-ten.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img src=337.png.png">
+                        <div class="layer">
+                            <h3>Web Calculator Project</h3>
+                            <p>Using HTML, CSS, JavaScript</p>
+                            <a href="https://sathish-swamy.github.io/DAY--15--TASK--PART-1/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="77.png">
+                        <div class="layer">
+                            <h3>To Do List Web App Project</h3>
+                            <p>Using ReactJS .</p>
+                            <a href="https://to-do-list-flame-kappa.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pricecard.png.png">
+                        <div class="layer">
+                            <h3> Price Card</h3>
+                            <p>Using HTML, CSS .</p>
+                            <a href="https://first-react-project-zeta-teal.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="weather.png">
+                        <div class="layer">
+                            <h3>Rest Countries and Weather Condition</h3>
+                            <p>Using HTML, CSS, JavaScript.</p>
+                            <a href="https://sathish-swamy.github.io/task-17/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="form.png">
+                        <div class="layer">
+                            <h3>Application Form</h3>
+                            <p>Using HTML, CSS, JavaScript</p>
+                            <a href="https://sathish-swamy.github.io/DAY--15--TASK--PART-2/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="'#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- ----------------contact------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>sathishswamy380@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9551116584</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sathish-swamy-0276a4261/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name='submit-to-google-sheet'>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span  id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Sathish. Made wtih <i class="fas fa-heart"></i></p>
+                </div>
+        </div>
+    </div>
+   
+
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right ="0";
+            };
+
+            function closemenu(){
+                sidemenu.style.right ="-200px";
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbySQsG_Zz0JSAkHpAyNs7_oLcJL_iH-bmUdrsO-KVFhhQTzsEJBrHCspY5sEzl2ja7n/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <!-- <script src="script.js"></script> -->
+
+</body>
+
+</html>
